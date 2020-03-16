@@ -40,7 +40,7 @@ void  rational::rationalMul(rationalNum R)
 	int Cmmdc = myCmmdc(result.x, result.y);
 	result.x = result.x / Cmmdc;
 	result.y = result.y / Cmmdc;
-	printf(" %2d        %2d         %2d\n"
+	printf(" %2d        %2d         %2d \n"
 		"-----  *  -----   =  -----\n"
 		" %2d        %2d         %2d\n", temp.x, R.x, result.x, temp.y, R.y, result.y);
 	int cmmdc = myCmmdc(result.x, result.y);
