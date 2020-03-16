@@ -138,9 +138,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\lab2_oop\lab2_oop\complex.cpp" />
+    <ClCompile Include="..\..\lab2_oop\lab2_oop\complex_main.cpp" />
     <ClCompile Include="rational.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\lab2_oop\lab2_oop\complex.h" />
     <ClInclude Include="rational.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

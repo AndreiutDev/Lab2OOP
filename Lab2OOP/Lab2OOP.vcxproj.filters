@@ -18,9 +18,18 @@
     <ClCompile Include="rational.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\lab2_oop\lab2_oop\complex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lab2_oop\lab2_oop\complex_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="rational.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lab2_oop\lab2_oop\complex.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
